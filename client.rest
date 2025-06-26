@@ -1,2 +1,9 @@
-GET http://localhost:3000
+POST http://localhost:3000/users
+Content-Type: application/json
 Accept: application/json
+
+{
+  "email": "rdx@style.com",
+  "name": "Lucas",
+  "password": "RDXstyle"
+}
